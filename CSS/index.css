@@ -1,0 +1,130 @@
+/* Nav Bar */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .column {
+      float: left;
+      padding: 5px;
+  }
+
+  .header{
+    margin-bottom: 10px;
+  }
+
+  .logoo {
+    margin-left: 15%;
+  }
+
+  .ptext {
+    width: 80%;
+    margin: 10px;
+  }
+.inlineblock {
+    display:inline-block;
+    vertical-align: middle;
+    margin-inline-start: 1%;
+}
+.logo {
+    width: 23%;
+    padding: 10%;
+    display: inline-block;
+}
+
+.name {
+    display:inline-block;
+    vertical-align:top;
+}
+nav {
+    width: 100%;
+    padding: 1%;
+    margin-inline-start: 10%;
+}
+ul {
+    list-style-type: none;
+    width: 90%;
+    padding: 1%;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 1%;
+  color:pink; 
+}
+
+.row {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+/* Hero Image */
+.herolmg {
+border-radius: 25px;
+margin: 10px;
+}
+
+button {
+    background-color: pink;
+    color: black;
+    border: pink;
+    border-radius: 25px;
+}
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: pink;
+    text-align: center;
+    padding-bottom: 30px;
+    height:auto;
+ }
+
+ .email {
+   color:black;
+ }
+
+ .linkss{
+  width: 100%;
+  justify-content: center;
+ }
