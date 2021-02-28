@@ -107,12 +107,50 @@ button {
     border: pink;
     border-radius: 25px;
 }
+/* Skills */
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    width: 33%;
+    margin-left: 15%;
+    margin-right: 5.5%
+  }
+
+  .skills {
+      padding-top: 7%;
+      margin-left: 44%;
+      margin-bottom: -1px;
+  }
+
+  .work {
+    margin-left: 48%;
+}
+
+  .workGrid {
+      display: flex;
+  }
+
+  .workGrid > div {
+    width: 33%;
+    margin-left: 15%;
+    margin-right: 5.5%
+  }
+
+  .pics {
+      display: flex;
+  }
+
+  .pics > div {
+    margin-left: 16%
+  }
 /* Footer */
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: absolute;
+    left: 5%;
+    bottom: -140%;
     width: 100%;
     color: pink;
     text-align: center;
@@ -127,4 +165,21 @@ button {
  .linkss{
   width: 100%;
   justify-content: center;
+ }
+
+ @media only screen and (max-width: 600) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexchildren {
+        width: 100%;
+    }
+    .workGrid {
+        display: flex;
+        flex-direction: column;
+    }
+    .workchildren {
+        width: 100%;
+    }
  }
